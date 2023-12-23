@@ -65,7 +65,7 @@ Since this is only the first part of the flag, lets look around some more. Lets 
 <script type="application/javascript" src="myjs.js"></script>
 ```
 
-Clicking on the `mycss.css` hyperlink at the top or adding `/mycss.css` to the URL it takes us to the CSS pages source code
+Clicking on the `mycss.css` hyperlink at the top or adding `/mycss.css` to the URL takes us to the CSS pages source code
 
 ```css
 div.container {
