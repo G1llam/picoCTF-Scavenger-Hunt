@@ -65,7 +65,7 @@ Since this is only the first part of the flag, lets look around some more. Lets 
 <script type="application/javascript" src="myjs.js"></script>
 ```
 
-Clicking on the `mycss.css` hyperlink at the top or adding `/mycss.css` to the URL takes us to the CSS pages source code
+Clicking on the `mycss.css` hyperlink at the top or adding `/mycss.css` to the URL it takes us to the CSS pages source code
 
 ```css
 div.container {
@@ -168,7 +168,7 @@ After some researching Apache servers, [.htacess](https://phoenixnap.com/kbhow-t
 # I love making websites on my Mac, I can Store a lot of information there.
 ```
 Good, this managed to get us part 4 of the flag. <br>
-Now this part made me a little stuck for a couple minutes. Since we looked what manages apache server configurations before, lets trying seeing what manages them for MAC, also the capitalized `Store` caught my eye, so i started researching and game across this: [`.DS_Store` file](https://en.wikipedia.org/wiki/.DS_Store), which stores configurations for how things look. <br>
+Now this part made me a little stuck for a couple minutes. Since we looked what manages apache server configurations before, lets trying seeing what manages them for MAC, also the capitalized `Store` caught my eye since nothing else was capitalized, so i started researching and came across this: [`.DS_Store`](https://en.wikipedia.org/wiki/.DS_Store), which stores configurations for how things look on MAC. <br>
 Lets try changing `.htaccess` to `.DS_Store`, which displayed the following:
 
 ```text
