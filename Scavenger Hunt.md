@@ -65,7 +65,7 @@ Since this is only the first part of the flag, lets look around some more. Lets 
 <script type="application/javascript" src="myjs.js"></script>
 ```
 
-Clicking on the `mycss.css` hyperlink at the top or adding `/mycss.css` to the URL takes us to the CSS pages source code
+Clicking on the `mycss.css` hyperlink at the top or adding `/mycss.css` to the URL it takes us to the CSS pages source code
 
 ```css
 div.container {
@@ -176,5 +176,7 @@ Congrats! You completed the scavenger hunt. Part 5: _7a46d25d}
 ```
 
 ## Completed Flag
-
-picoCTF{th4ts_4_l0t_0f_pl4c3s_2_lO0k_7a46d25d}
+<details>
+    <summary>SPOILER, Final Flag!</summary>
+    picoCTF{th4ts_4_l0t_0f_pl4c3s_2_lO0k_7a46d25d}
+</details>
